@@ -45,7 +45,7 @@ ul li.divider {
 	opacity: 0.2;
 }
 
-ul li a {
+ul li a, ul li a:visited, ul li a:active {
 	text-decoration: none;
 	color: #AE81FF;
 }
