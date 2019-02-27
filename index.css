@@ -14,43 +14,18 @@ body, html {
 	height: 300px;
 }
 
-section {
-	padding: 0.5em;
-}
+section { padding: 0.5em; }
+section h1 { text-transform: uppercase }
+section#date { flex-basis: 100%; justify-content: center; }
+section#date p { text-align: center; font-size: 200%; }
 
-section h1 {
-	text-transform: uppercase
-}
-
-section#date {
-	flex-basis: 100%;
-	justify-content: center;
-}
-
-section#date p {
-	text-align: center;
-	font-size: 200%;
-
-}
-
-ul li.divider:before {
-	content: '~~~~~';
-	text-align: center;
-}
-
-ul li.divider {
-	list-style: none;
-	opacity: 0.2;
-}
-
+ul { list-style-type: none; padding: 0 }
+ul li { margin-top: .2em; }
 ul li a, ul li a:visited, ul li a:active {
 	text-decoration: none;
 	color: #AE81FF;
 }
-
-ul li a:hover {
-	color: #D63AE1;
-}
+ul li a:hover { color: #D63AE1; }
 
 input {
 	background-color: #232323;
