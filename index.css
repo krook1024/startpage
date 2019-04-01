@@ -1,5 +1,6 @@
 /*
-* > Colors: https://coolors.co/4f7cac-c0e0de-162521-3c474b-9eefe5
+* > Colors: DRACULA (https://github.com/dracula/dracula-theme)
+*
 */
 
 html {
@@ -12,7 +13,7 @@ body {
 	background: url('/home/b1/.config/wall.png');
 	background-size: cover;
 
-	color: #C0E0DE;
+	color: #f8f8f2;
 }
 
 .clr { clear: both; }
@@ -29,21 +30,21 @@ section {
 	width: calc(25% - (25 * 2px + 10 * 2px));
 	padding: 25px;
 	margin: 10px;
-	background-color: #3C474B;
+	background-color: #282a36;
 	border-radius: 4px
 }
 
 ul { padding: 0; list-style-type: none }
 ul li {}
-ul li a { color: #9EEFE5; text-decoration: none }
-ul li a:hover, ul li a:active { color: #4F7CAC }
+ul li a { color: #bd93f9; text-decoration: none }
+ul li a:hover, ul li a:active { color: #6272a4 }
 
 input {
 	display: block;
 	width: 100%;
 	border: 1px solid #3C474B;
 	border-radius: 4px;
-	background-color: #162521;
+	background-color: #44475a;
 	padding: 8px 14px;
-	color: #C0E0DE;
+	color: #bd93f9;
 }
