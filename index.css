@@ -7,7 +7,7 @@
 @media screen and (min-width: 1080px) { .container { width: 60%; } }
 
 ::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
 
 html {
@@ -46,9 +46,7 @@ section {
 	border-radius: 4px;
 	transition: .1s linear;
 }
-section:hover {
-	background-color: rgba(68, 71, 90, 0.8);
-}
+section:hover { background-color: rgba(68, 71, 90, 0.8); }
 section h1 {
 	text-align: center;
 	padding-bottom: .5em;
@@ -57,10 +55,7 @@ section h1 {
 
 ul { padding: 0; list-style-type: none }
 ul li {}
-ul li a {
-	color: #8be9fd;
-	text-decoration: none
-}
+ul li a { color: #8be9fd; text-decoration: none }
 ul li a:hover, ul li a:active { color: #50fa7b }
 
 input {
