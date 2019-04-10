@@ -1,10 +1,10 @@
 /* > Colors: DRACULA (https://github.com/dracula/dracula-theme) */
 
 @media screen and (min-width: 320px) { .container { width: 100%; } }
-@media screen and (min-width: 480px) { .container { width: 90%; } }
-@media screen and (min-width: 720px) { .container { width: 80%; } }
-@media screen and (min-width: 960px) { .container { width: 70%; } }
-@media screen and (min-width: 1080px) { .container { width: 60%; } }
+@media screen and (min-width: 480px) { .container { width: 80%; } }
+@media screen and (min-width: 720px) { .container { width: 70%; } }
+@media screen and (min-width: 960px) { .container { width: 60%; } }
+@media screen and (min-width: 1080px) { .container { width: 50%; } }
 
 ::-webkit-scrollbar {
 	display: none;
@@ -13,7 +13,7 @@
 html {
 	margin: 0;
 	padding: 0;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Ubuntu Nerd Font', sans-serif;
 	overflow: -moz-scrollbars-none;
 	scrollbar-width: none;
 }
