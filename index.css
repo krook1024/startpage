@@ -16,25 +16,34 @@ html {
 	font-family: 'Ubuntu Nerd Font', sans-serif;
 	overflow: -moz-scrollbars-none;
 	scrollbar-width: none;
+	font-size: 85%;
 }
 
 body {
-	background: url('/home/b1/.config/wall.png') no-repeat;
+	background: linear-gradient(
+      rgba(40, 42, 54, 0.45),
+      rgba(40, 42, 54, 0.45)
+    ),
+	url('/home/b1/.config/wall.png') no-repeat;
 	background-size: cover;
-
 	color: #f8f8f2;
 }
 
 #date {
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 120%;
 }
 
 .container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	margin: 1em auto;
+	margin: auto;
+	background-color: rgba(40, 42, 54, 1);
+}
+.container:first-child {
+	border-top: 1px solid #8be9fd;
+	margin-top: 3em;
 }
 
 section {
@@ -42,8 +51,6 @@ section {
 	flex-basis: .0001em;
 	padding: 1em;
 	margin: .5em;
-	background-color: rgba(40, 42, 54, 0.8);
-	border-radius: 4px;
 	transition: .1s linear;
 }
 section:hover { background-color: rgba(68, 71, 90, 0.8); }
@@ -53,8 +60,15 @@ section h1 {
 	border-bottom: 1px solid rgba(248, 248, 242, 0.1)
 }
 
-ul { padding: 0; list-style-type: none }
-ul li {}
+ul { padding: 0 1.1em; list-style: none; }
+ul li::before {
+	content: "\f105";
+	margin-left: -1em;
+	width: 1em;
+	display: inline-block;
+	color: rgba(248, 248, 242, 0.4)
+}
+ul li.spacer::before { content: ""; }
 ul li a { color: #8be9fd; text-decoration: none }
 ul li a:hover, ul li a:active { color: #50fa7b }
 
