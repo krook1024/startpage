@@ -75,7 +75,7 @@ section {
 	margin: .5em;
 	transition: .1s linear;
 }
-section:hover { background-color: rgba(68, 71, 90, 0.8); }
+/* section:hover { background-color: rgba(68, 71, 90, 0.8); } */
 section h1 {
 	text-align: center;
 	padding-bottom: .5em;
