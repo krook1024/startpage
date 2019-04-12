@@ -54,7 +54,7 @@ body:before {
 	/* always centered */
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: perspective(1px) translateY(-50%);
 }
 
 article {
