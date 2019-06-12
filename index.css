@@ -13,7 +13,7 @@
 html {
 	margin: 0;
 	padding: 0;
-	font-family: 'Ubuntu Nerd Font', sans-serif;
+	font-family: 'Meslo LGSDZ Nerd Font', sans-serif;
 	overflow: -moz-scrollbars-none;
 	scrollbar-width: none;
 	font-size: 90%;
@@ -24,10 +24,10 @@ html {
 }
 
 body {
-	color: #f8f8f2;
+	color: #c9c9c9;
 }
 
-body:before {
+body::before {
 	content: "";
 	position: fixed;
 	left: -5%;
@@ -51,8 +51,8 @@ body:before {
 #container {
 	margin: auto;
 
-	border-top: 1px solid #8be9fd;
-	background-color: rgba(40, 42, 54, 1);
+	border-top: 1px solid #FAD000;
+	background-color: #1E1E3F;
 	box-shadow: 0px 0px 25px #000;
 
 	/* always centered */
@@ -84,6 +84,7 @@ section h1 {
 
 ul { padding: 0 1.1em; list-style: none; }
 ul li::before {
+	font-family: "fontawesome";
 	content: "\f105";
 	margin-left: -1em;
 	width: 1em;
@@ -91,8 +92,8 @@ ul li::before {
 	color: rgba(248, 248, 242, 0.4)
 }
 ul li.spacer::before { content: ""; }
-ul li a { color: #8be9fd; text-decoration: none }
-ul li a:hover, ul li a:active { color: #50fa7b }
+ul li a { color: #FAD000; text-decoration: none }
+ul li a:hover, ul li a:active { color: #FAEFA5 }
 
 input {
 	display: block;
