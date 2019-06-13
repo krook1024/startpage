@@ -24,7 +24,7 @@ html {
 }
 
 body {
-	color: #c9c9c9;
+	color: #fefefe;
 }
 
 body::before {
@@ -50,8 +50,7 @@ body::before {
 
 #container {
 	margin: auto;
-
-	border-top: 1px solid #FAD000;
+	border-top: 1px solid #A599E9;
 	background-color: #1E1E3F;
 	box-shadow: 0px 0px 25px #000;
 
@@ -79,7 +78,7 @@ section {
 section h1 {
 	text-align: center;
 	padding-bottom: .5em;
-	border-bottom: 1px solid rgba(248, 248, 242, 0.1)
+	border-bottom: 1px solid #A599E93F;
 }
 
 ul { padding: 0 1.1em; list-style: none; }
@@ -92,15 +91,15 @@ ul li::before {
 	color: rgba(248, 248, 242, 0.4)
 }
 ul li.spacer::before { content: ""; }
-ul li a { color: #FAD000; text-decoration: none }
+ul li a { color: #FB94FF; text-decoration: none }
 ul li a:hover, ul li a:active { color: #FAEFA5 }
 
 input {
 	display: block;
 	width: 100%;
-	border: 1px solid #3C474B;
+	border: 1px solid #A599E9;
 	border-radius: 4px;
-	background-color: #44475a;
+	background-color: #2D2B55;
 	padding: 8px 14px;
 	color: #bd93f9;
 }
