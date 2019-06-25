@@ -48,8 +48,8 @@ body::before {
 
 #container {
 	margin: auto;
-	border-top: 1px solid #A599E9;
-	background-color: #1E1E3F;
+	border-top: 1px solid #ebdbb2;
+	background-color: #282828;
 	box-shadow: 0px 0px 25px #000;
 
 	/* always centered */
@@ -76,7 +76,7 @@ section {
 section h1 {
 	text-align: center;
 	padding-bottom: .5em;
-	border-bottom: 1px solid #A599E93F;
+	border-bottom: 1px solid #ebdbb23F;
 }
 
 ul { padding: 0 1.1em; list-style: none; }
@@ -88,16 +88,16 @@ ul li::before {
 	color: rgba(248, 248, 242, 0.4)
 }
 
-ul li a { color: #FB94FF; text-decoration: none }
+ul li a { color: #ebdbb2; text-decoration: none }
 
 ul li a:hover, ul li a:active { color: #FAEFA5 }
 
 input {
 	display: block;
 	width: 100%;
-	border: 1px solid #A599E9;
+	border: 1px solid #ebdbb23f;
 	border-radius: 4px;
-	background-color: #2D2B55;
+	background-color: #ebdbb222;
 	padding: 8px 14px;
-	color: #bd93f9;
+	color: #ebdbb2;
 }
